@@ -1,0 +1,9 @@
+echo "enter the username:"
+read username
+
+if grep -q "$username" /etc/passwd
+then
+    echo "user exists"
+else
+    echo "not found"
+fi
