@@ -14,3 +14,12 @@ then
 else
     echo " no file copied"
 fi
+echo "enter the number:"
+read n
+
+sum=0
+for ((i=1; i<=n; i++))
+do 
+    sum=$(sum + i)
+done
+echo "displau the $sum=$n"
