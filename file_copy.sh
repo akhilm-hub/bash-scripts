@@ -22,4 +22,4 @@ for ((i=1; i<=n; i++))
 do 
     sum=$(sum + i)
 done
-echo "displau the $sum=$n"
+echo "display the $sum=$n"
